@@ -1,0 +1,9 @@
+,,Time Taken,Time Taken,IsCorrect
+,,mean,std,mean
+Programming Level,IdentifierStyle,,,
+Advanced,camelCase,3.4616,1.5464254704295388,1.0
+Advanced,kebab-case,3.2521666666666667,1.3007247414835101,1.0
+Beginner,camelCase,2.9935,0.8453541523273798,0.98
+Beginner,kebab-case,3.5468200000000003,1.5621070763424587,1.0
+Intermediate,camelCase,2.800675,1.1036477122636599,0.95
+Intermediate,kebab-case,2.802025,1.4911934815331938,0.975

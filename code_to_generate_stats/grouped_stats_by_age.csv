@@ -1,0 +1,15 @@
+,,,Time Taken,Time Taken,IsCorrect
+,,,mean,std,mean
+Programming Level,AgeGroup,IdentifierStyle,,,
+Advanced,25 and Below,camelCase,3.4385,1.7177719882010756,1.0
+Advanced,25 and Below,kebab-case,2.9103666666666665,0.8476844925150954,1.0
+Advanced,Above 25,camelCase,3.4846999999999997,1.383286669618712,1.0
+Advanced,Above 25,kebab-case,3.5939666666666668,1.5753825038171945,1.0
+Beginner,25 and Below,camelCase,2.9467,0.5478489497980915,0.975
+Beginner,25 and Below,kebab-case,3.70045,1.6488463247265048,1.0
+Beginner,Above 25,camelCase,3.1807000000000003,1.5941946800117535,1.0
+Beginner,Above 25,kebab-case,2.9323,0.9899067352253164,1.0
+Intermediate,25 and Below,camelCase,2.8187571428571427,1.1565641449245487,0.9428571428571428
+Intermediate,25 and Below,kebab-case,2.846085714285714,1.5797699130106986,0.9714285714285714
+Intermediate,Above 25,camelCase,2.6741,0.6450427117641125,1.0
+Intermediate,Above 25,kebab-case,2.4936,0.5142840114610255,1.0
