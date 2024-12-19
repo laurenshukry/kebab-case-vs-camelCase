@@ -1,0 +1,103 @@
+/* experiment.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Experiment Container */
+#experiment {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading Styling */
+#experiment h1 {
+    font-size: 1.8em;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Sentence Styling */
+#sentence {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Choices Styling */
+#choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choice-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.choice-button:hover {
+    background-color: #0056b3;
+}
+
+.choice-button.selected {
+    background-color: #28a745;
+    transform: scale(1.1);
+}
+
+/* Timer Styling */
+#timer {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+#submitBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+#submitBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#submitBtn:hover:not(:disabled) {
+    background-color: #218838;
+}

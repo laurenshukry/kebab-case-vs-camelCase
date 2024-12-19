@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment</title>
+    <link rel="stylesheet" href="./css/experiment.css">
+    <script src="./js/experiment_script.js" defer></script>
+</head>
+<body>
+<div id="experiment">
+    <h1>Experiment</h1>
+    <p id="instruction">Identify the correct identifier matching the sentence below:</p>
+
+    <!-- Display the sentence -->
+    <p id="sentence" style="font-size: 1.5em; font-weight: bold;"></p>
+
+    <!-- Identifier choices -->
+    <div id="choices"></div>
+
+    <!-- Timer feedback -->
+    <p id="timer">Time elapsed: <span id="timeElapsed">0</span> seconds</p>
+
+    <!-- Button to submit answer -->
+    <button id="submitBtn" disabled>Submit Answer</button>
+</div>
+</body>
+</html>

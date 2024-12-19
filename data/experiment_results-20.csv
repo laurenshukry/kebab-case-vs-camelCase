@@ -1,0 +1,26 @@
+Age: 20
+Experience: yes
+Programming Level: beginner
+Familiarity with camelCase/kebab-case: yes
+
+Task,Sentence,Selected Identifier,Correct Identifier,Is Correct,Time Taken
+1,open door,openDoor,openDoor,true,2.869
+2,test function,testFunction,testFunction,true,3.542
+3,debug issue,debug-issue,debug-issue,true,4.377
+4,run fast,run-fast,run-fast,true,3.999
+5,open door,open-door,open-door,true,3.798
+6,read book,read-book,read-book,true,3.479
+7,read book,readBook,readBook,true,2.845
+8,debug issue,debugIssue,debugIssue,true,3.172
+9,close window,close-window,close-window,true,4.22
+10,play game,play-game,play-game,true,3.8
+11,play game,playGame,playGame,true,2.397
+12,jump high,jump-high,jump-high,true,3.086
+13,run fast,runFast,runFast,true,3.136
+14,jump high,jumpHigh,jumpHigh,true,3.02
+15,move south,move-south,move-south,true,3.257
+16,close window,closeWindow,closeWindow,true,3.39
+17,write code,write-code,write-code,true,3.721
+18,move south,moveSouth,moveSouth,true,3.339
+19,write code,writeCode,writeCode,true,3.251
+20,test function,test-function,test-function,true,6.056
